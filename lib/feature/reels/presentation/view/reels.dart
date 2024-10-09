@@ -1,7 +1,8 @@
 
+
 import 'package:flutter/material.dart';
 
-import 'package:reels/feature/reels/presentation/view/reels_page_body.dart';
+import 'package:reels/feature/reels/presentation/view/reels_video_body.dart';
 
 class ReelsPage extends StatelessWidget{
   const ReelsPage({super.key});
@@ -9,7 +10,8 @@ class ReelsPage extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return  const Scaffold(
-      body: ReelsPageBody(),
+
+      body: ReelsScreenBody(),
     );
   }
 
